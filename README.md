@@ -20,12 +20,13 @@
 | EF Core: Code First, миграции, LINQ, связи сущностей         | LibraryAPI            |
 | JWT: access + refresh-токены с ротацией, BCrypt, роли и политики авторизации | LibraryAPI            |
 | Redis: кэширование с TTL, инвалидация по префиксам, fail-open и circuit breaker | LibraryAPI            |
-| SQL Server, T-SQL, параметризованные запросы                 | LibraryAPI, ApexBliss |
+| SQL Server, EF Core, параметризованные запросы | LibraryAPI, ApexBliss |
 | Dapper и ручной SQL с маппингом на доменные модели           | ApexBliss             |
 | Тесты: xUnit, Moq, EF Core InMemory, WebApplicationFactory, Testcontainers | LibraryAPI            |
 | Docker, Docker Compose, multi-stage сборка                   | LibraryAPI            |
 | WCF, `netTcpBinding`, callback-контракты, сетевое взаимодействие | GameChat              |
-| Git, GitHub Actions (CI)                                     | все проекты           |
+| Git | все проекты |
+| GitHub Actions (CI) | LibraryAPI |
 
 ---
 
