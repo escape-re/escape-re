@@ -33,7 +33,7 @@
 
 | Проект                                                       | Что это                                                      | Стек                                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [**LibraryAPI**](https://github.com/Escape-projects/LibraryAPI) | REST API для библиотеки: книги, авторы, аккаунты сотрудников, роли, JWT, Redis, 76 тестов, Docker Compose | C#, .NET 10, ASP.NET Core, EF Core, SQL Server, Redis, xUnit |
+| [**LibraryAPI**](https://github.com/Escape-projects/LibraryAPI) | REST API для библиотеки: книги, авторы, аккаунты сотрудников, роли, JWT, Redis, 76 тестов, Docker Compose | C#, .NET 10, ASP.NET Core, EF Core, SQL Server, Redis, xUnit, Testcontainers |
 | [**GameChat**](https://github.com/Escape-projects/GameChat)  | Дипломный проект: игровой мессенджер с комнатами и сообщениями в реальном времени | C#, .NET Framework 4.8, WCF, TCP/IP, WinForms                |
 | [**ApexBliss**](https://github.com/Escape-projects/ApexBliss) | Первый учебный проект: учёт компьютеров, клиентов и сессий компьютерного клуба | C#, .NET 10, Dapper, DI, Repository Pattern                  |
 
