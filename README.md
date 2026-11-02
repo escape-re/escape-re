@@ -6,7 +6,7 @@
 
 ## Чем занимаюсь сейчас
 
-Делаю проекты, в которых закрываю весь путь backend-задачи: от схемы БД и API-контракта до кэша, тестов и запуска в контейнерах. Главный проект — [**LibraryAPI**](https://github.com/Escape-projects/LibraryAPI): REST API для библиотеки с JWT-аутентификацией, ролями, кэшированием в Redis, 52 юнит-тестами и CI.
+Делаю проекты, в которых закрываю весь путь backend-задачи: от схемы БД и API-контракта до кэша, тестов и запуска в контейнерах. Главный проект — [**LibraryAPI**](https://github.com/Escape-projects/LibraryAPI): REST API для библиотеки с JWT-аутентификацией, ролями, кэшированием в Redis, 76 тестами (52 юнит-теста и 24 интеграционных) и CI.
 
 ---
 
@@ -22,7 +22,7 @@
 | Redis: кэширование с TTL, инвалидация по префиксам, fail-open и circuit breaker | LibraryAPI            |
 | SQL Server, T-SQL, параметризованные запросы                 | LibraryAPI, ApexBliss |
 | Dapper и ручной SQL с маппингом на доменные модели           | ApexBliss             |
-| Тесты: xUnit, Moq, EF Core InMemory                          | LibraryAPI            |
+| Тесты: xUnit, Moq, EF Core InMemory, WebApplicationFactory, Testcontainers | LibraryAPI            |
 | Docker, Docker Compose, multi-stage сборка                   | LibraryAPI            |
 | WCF, `netTcpBinding`, callback-контракты, сетевое взаимодействие | GameChat              |
 | Git, GitHub Actions (CI)                                     | все проекты           |
@@ -33,7 +33,7 @@
 
 | Проект                                                       | Что это                                                      | Стек                                                         |
 | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [**LibraryAPI**](https://github.com/Escape-projects/LibraryAPI) | REST API для библиотеки: книги, авторы, аккаунты сотрудников, роли, JWT, Redis, 52 теста, Docker Compose | C#, .NET 10, ASP.NET Core, EF Core, SQL Server, Redis, xUnit |
+| [**LibraryAPI**](https://github.com/Escape-projects/LibraryAPI) | REST API для библиотеки: книги, авторы, аккаунты сотрудников, роли, JWT, Redis, 76 тестов, Docker Compose | C#, .NET 10, ASP.NET Core, EF Core, SQL Server, Redis, xUnit |
 | [**GameChat**](https://github.com/Escape-projects/GameChat)  | Дипломный проект: игровой мессенджер с комнатами и сообщениями в реальном времени | C#, .NET Framework 4.8, WCF, TCP/IP, WinForms                |
 | [**ApexBliss**](https://github.com/Escape-projects/ApexBliss) | Первый учебный проект: учёт компьютеров, клиентов и сессий компьютерного клуба | C#, .NET 10, Dapper, DI, Repository Pattern                  |
 
